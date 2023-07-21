@@ -70,7 +70,7 @@ function drawGameScreen() {
     if (random(1) < 0.05) {
         let asteroid = {
             x : random(width),
-            y : -70,
+            y : -50,
             speed : random(1, 3),
             size: random(20, 50)
         }
